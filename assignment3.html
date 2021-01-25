@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Assignment 3</title>
+    </head>
+
+    <body>
+        <script>
+            // question 1
+            // check console for the output
+            var library = [
+            {
+                author: 'Bill Gates',
+                title: 'The Road Ahead',
+                readingStatus: true
+            },
+            {
+                author: 'Steve Jobs',
+                title: 'Walter Isaacson',
+                readingStatus: true
+            },
+            {
+                author: 'Suzanne Collins',
+                title: 'Mockingjay: The Final Book of The Hunger Games',
+                readingStatus: false
+            }];
+
+
+            x=library[0].author
+            y=library[0].title
+            z=library[0].readingStatus
+            if (z===true)
+            {
+                var i="Already read "
+            }
+            else{
+                var i= "You still need to read "
+            }
+            console.log(i + x+" by "+y);
+
+            x=library[1].author
+            y=library[1].title
+            z=library[1].readingStatus
+            console.log(i + x+" by "+y);
+
+            x=library[2].author
+            y=library[2].title
+            z=library[2].readingStatus
+            console.log(i + y+" by "+x);
+
+            // question 2
+            age=17
+
+            if (age<18)
+            {
+                alert("not legal age for driving");
+            }
+            else{
+                alert("safe drive");
+            }
+
+        </script>
+
+    </body>
+</html>
