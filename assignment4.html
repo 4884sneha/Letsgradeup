@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Assignment 4</title>
+    </head>
+
+    <body>
+        <script>
+            
+            // Question 1
+            //ways to access HTML elements in the DOM — by ID, by class, by HTML tag name, and by selector.
+
+            // Question 2
+
+
+            function add(a,b)
+            {
+                var a=document.getElementById("first name");
+                var b=document.getElementById("second name");
+
+               var c=parseInt(a.value)+parseInt(b.value);
+               console.log(c)
+               document.getElementById("add").setAttribute('value',c)
+            }
+            
+           
+        </script>
+
+        <div>
+            <div>
+                <label>Enter first number</label>
+                <input label='Enter first name' type="number" id="first name" />
+            </div>
+
+            <div>
+                <label>Enter second number</label>
+                <input label='Enter first name' type="number" id='second name' />
+            </div>
+
+            <div>
+                <button onclick="add()" >add</button>
+                <input type="text" id="add" />
+            </div>
+
+        </div>
+
+
+    </body>
+</html>
